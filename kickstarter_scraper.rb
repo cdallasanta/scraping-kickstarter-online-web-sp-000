@@ -11,6 +11,7 @@ def create_project_hash
   #img: .css(".project-thumbnail a img").attribute("src").value
   #desc: .css("p").text
   #location: .css("span.location-name").text
+  #percent: .css("")
 
 
   binding.pry
