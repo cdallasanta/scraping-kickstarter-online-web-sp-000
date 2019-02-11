@@ -14,7 +14,6 @@ def create_project_hash
   #percent: .css("ul.project-stats .first.funded strong")text.gsub("%","").to_i
 
 
-  binding.pry
 end
 
 create_project_hash
