@@ -8,7 +8,7 @@ def create_project_hash
 
   #all projects: kickstarter.css("li.project.grid_4").first
   #title: .css("h2.bbcard_name strong a").text
-  #img: .css("")
+  #img: .css("#project-thumbnail ")
 
   binding.pry
 end
