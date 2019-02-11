@@ -11,7 +11,7 @@ def create_project_hash
   #img: .css(".project-thumbnail a img").attribute("src").value
   #desc: .css("p").text
   #location: .css("span.location-name").text
-  #percent: .css("ul.project-stats .first.funded strong")text
+  #percent: .css("ul.project-stats .first.funded strong")text.gsub("%","").to_i
 
 
   binding.pry
