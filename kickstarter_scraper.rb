@@ -10,7 +10,7 @@ def create_project_hash
   #title: .css("h2.bbcard_name strong a").text
   #img: .css(".project-thumbnail a img").attribute("src").value
   #desc: .css("p").text
-  #location: .css(")
+  #location: .css("span.location-name").text
 
 
   binding.pry
